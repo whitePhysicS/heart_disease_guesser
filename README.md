@@ -3,7 +3,7 @@
 ## 🎯 Proje Amacı
 Projemiz, bireylerin sağlık verilerinden (yaş, boy, kilo, tansiyon, kolesterol, glikoz vb.) yararlanılarak **kalp hastalığı riskini** tahmin etmeyi amaçlamaktadır.
 
-Amaç: Farklı makine öğrenmesi algoritmalarını kullandıktan sonra, karşılaştırarak **en doğru ve en güvenilir tahmin modelini oluşturmak.**
+Bu projede amacımız farklı makine öğrenmesi algoritmalarını kullandıktan sonra, karşılaştırarak **en doğru ve en güvenilir tahmin modelini oluşturmaktır.**
 
 
 
