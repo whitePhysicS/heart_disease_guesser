@@ -1,6 +1,6 @@
 ## 🩺 Kalp Hastalığı Tahmini – Makine Öğrenmesi Projesi
 
-## 🎯 Proje Amacı
+## Proje Amacı
 Projemiz, bireylerin sağlık verilerinden (yaş, boy, kilo, tansiyon, kolesterol, glikoz vb.) yararlanılarak **kalp hastalığı riskini** tahmin etmeyi amaçlamaktadır.
 
 Bu projede amacımız farklı makine öğrenmesi algoritmalarını kullandıktan sonra, karşılaştırarak **en doğru ve en güvenilir tahmin modelini oluşturmaktır.**
@@ -15,11 +15,11 @@ Veri seti, yaş (gün cinsinden), boy, kilo, kan basıncı, kolesterol, glikoz, 
 
 
 
-## 🧠 Kullanılan Yöntemler ve Modeller
+## Kullanılan Yöntemler ve Modeller
 
 ### 📌 Aşamalar:
 1. **Veri Ön İşleme:** `id` kaldırıldı, `age` gün → yıl dönüşümü yapıldı, StandardScaler ile ölçekleme yapıldı veriler ölçeklendirildi.
-2. **x ve y ayrımı** yapıldı
+2. **x ve y ayrımı** yapıldı.
 3. **train_test_split:** %70 eğitim / %30 test bölmesi olacak şekilde ayarlandı.
 4. **Model Kurulumu:** Aşağıdaki algoritmalar ayrı ayrı test edildi:
     - LogisticRegression (baseline)
@@ -34,6 +34,7 @@ Veri seti, yaş (gün cinsinden), boy, kilo, kan basıncı, kolesterol, glikoz, 
     - Recall
     - F1 Score
     - Confusion Matrix
+   şeklindedir.
 
 
 
@@ -45,11 +46,11 @@ Veri seti, yaş (gün cinsinden), boy, kilo, kan basıncı, kolesterol, glikoz, 
 | Random Forest (Optimize)        | 0.74     | 0.76      | 0.70   | 0.73     |
 | XGBoost (Optimize)              | 0.74     | 0.76      | 0.70   | 0.73     |
 
-**Karar:** XGBoost optimize edildiğinde en yüksek skoru verdi, ancak Logistic Regression daha sade, daha yorumlanabilir ve yeterince güçlü olduğu için final model olarak tercih edildi.
+**Verilen Karar:** XGBoost optimize edildiğinde en yüksek skoru verdi, ancak Logistic Regression daha sade, daha yorumlanabilir ve yeterince güçlü olduğu için final model olarak tercih edildi.
 
 
 
-## 🧪 Denenen Ama Uygun Görülmeyen Yöntemler
+## Denenen Ama Uygun Görülmeyen Yöntemler
 
 - KNN: Veri büyüklüğü ve yapısı sebebiyle tercih edilmedi.
 - SVM: Eğitim süresi ve doğrusal olmayan yapı ihtimali nedeniyle dışlandı.
@@ -57,7 +58,7 @@ Veri seti, yaş (gün cinsinden), boy, kilo, kan basıncı, kolesterol, glikoz, 
 
 
 
-## 💡 Öğrenilenler
+## Öğrenilenler
 
 - Basit modeller, iyi hazırlanmış veri ile çok güçlü sonuçlar verebilir.
 - Her veri seti için en iyi model farklıdır: model değil **veri belirleyicidir**.
@@ -66,7 +67,7 @@ Veri seti, yaş (gün cinsinden), boy, kilo, kan basıncı, kolesterol, glikoz, 
 
 
 
-## 📌 Kullanılan Kütüphaneler
+## Kullanılan Kütüphaneler
 - pandas, numpy
 - matplotlib, seaborn
 - scikit-learn
@@ -74,14 +75,14 @@ Veri seti, yaş (gün cinsinden), boy, kilo, kan basıncı, kolesterol, glikoz, 
 
 
 
-## 📤 Projenin Paylaşımı
+## Projenin Paylaşımı
 
 - **Kaggle:** 
 - **GitHub:** 
 
 
 
-## 🧠 Geliştirme Önerileri
+## Geliştirme Önerileri
 
 - Yeni özellikler (BMI, yaş grubu vs.) oluşturulabilir.
 - SMOTE ile sınıf dengesi daha iyi hale getirilebilir.
