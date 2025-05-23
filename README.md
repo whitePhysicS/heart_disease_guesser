@@ -53,9 +53,9 @@ Veri seti, yaş (gün cinsinden), boy, kilo, kan basıncı, kolesterol, glikoz, 
 
 ## Denenen Ama Uygun Görülmeyen Yöntemler
 
-- KNN: Veri büyüklüğü ve yapısı sebebiyle tercih edilmedi.
-- SVM: Eğitim süresi ve doğrusal olmayan yapı ihtimali nedeniyle dışlandı.
-- MLP (Yapay Sinir Ağı): Gereksiz karmaşıklık yaratacağı için tercih edilmedi.
+- **KNN:** Veri büyüklüğü ve yapısı sebebiyle tercih edilmedi.
+- **SVM:** Eğitim süresi ve doğrusal olmayan yapı ihtimali nedeniyle dışlandı.
+- **MLP (Yapay Sinir Ağı):** Gereksiz karmaşıklık yaratacağı için tercih edilmedi.
 
 
 
@@ -83,7 +83,7 @@ Veri seti, yaş (gün cinsinden), boy, kilo, kan basıncı, kolesterol, glikoz, 
 
 
 
-## Geliştirme Önerileri
+## Geliştirme Fikirleri
 
 - Yeni özellikler (BMI, yaş grubu vs.) oluşturulabilir.
 - SMOTE ile sınıf dengesi daha iyi hale getirilebilir.
