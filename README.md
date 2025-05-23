@@ -33,8 +33,8 @@ Veri seti, yaş (gün cinsinden), boy, kilo, kan basıncı, kolesterol, glikoz, 
     - Precision
     - Recall
     - F1 Score
-    - Confusion Matrix                                      
-   şeklindedir.
+    - Confusion Matrix                                                                                                          
+  şeklindedir.
 
 
 
