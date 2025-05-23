@@ -1,4 +1,4 @@
-##🩺 Kalp Hastalığı Tahmini – Makine Öğrenmesi Projesi
+## 🩺 Kalp Hastalığı Tahmini – Makine Öğrenmesi Projesi
 
 ## 🎯 Proje Amacı
 Projemiz, bireylerin sağlık verilerinden (yaş, boy, kilo, tansiyon, kolesterol, glikoz vb.) yararlanılarak **kalp hastalığı riskini** tahmin etmeyi amaçlamaktadır.
