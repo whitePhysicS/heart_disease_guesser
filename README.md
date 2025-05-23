@@ -78,8 +78,8 @@ Veri seti, yaş (gün cinsinden), boy, kilo, kan basıncı, kolesterol, glikoz, 
 
 ## Projenin Paylaşıldığı Yerler
 
-- **Kaggle:** 
-- **GitHub:** [Heart Disease Guesser](https://github.com/whitePhysicS/heart_disease_guesser)
+- **Kaggle:** [Kaggle - Heart Disease Guesser](https://www.kaggle.com/code/burakglce/kalp-hastaligi-tahmin-supervised)
+- **GitHub:** [Github -Heart Disease Guesser](https://github.com/whitePhysicS/heart_disease_guesser)
 
 
 
