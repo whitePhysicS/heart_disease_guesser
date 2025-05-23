@@ -35,7 +35,7 @@ Veri seti, yaş (gün cinsinden), boy, kilo, kan basıncı, kolesterol, glikoz, 
     - F1 Score
     - Confusion Matrix
                                                                                                               
-  şeklindedir.
+   şeklindedir.
 
 
 
