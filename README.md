@@ -5,7 +5,7 @@ Projemiz, bireylerin sağlık verilerinden (yaş, boy, kilo, tansiyon, kolestero
 
 Amaç: Farklı makine öğrenmesi algoritmalarını kullandıktan sonra, karşılaştırarak **en doğru ve en güvenilir tahmin modelini oluşturmak.**
 
----
+
 
 ## 📁 Kullanılan Veri Seti
 - **Kaynak:** [Kaggle – Cardiovascular Disease Dataset](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset)
@@ -13,7 +13,7 @@ Amaç: Farklı makine öğrenmesi algoritmalarını kullandıktan sonra, karşı
 
 Veri seti, yaş (gün cinsinden), boy, kilo, kan basıncı, kolesterol, glikoz, sigara, alkol, fiziksel aktivite gibi sağlık parametrelerini içermektedir.
 
----
+
 
 ## 🧠 Kullanılan Yöntemler ve Modeller
 
@@ -35,7 +35,7 @@ Veri seti, yaş (gün cinsinden), boy, kilo, kan basıncı, kolesterol, glikoz, 
     - F1 Score
     - Confusion Matrix
 
----
+
 
 ## ⚙️ En Başarılı Modeller ve Sonuçları
 
@@ -47,7 +47,7 @@ Veri seti, yaş (gün cinsinden), boy, kilo, kan basıncı, kolesterol, glikoz, 
 
 **Karar:** XGBoost optimize edildiğinde en yüksek skoru verdi, ancak Logistic Regression daha sade, daha yorumlanabilir ve yeterince güçlü olduğu için final model olarak tercih edildi.
 
----
+
 
 ## 🧪 Denenen Ama Uygun Görülmeyen Yöntemler
 
@@ -55,7 +55,7 @@ Veri seti, yaş (gün cinsinden), boy, kilo, kan basıncı, kolesterol, glikoz, 
 - SVM: Eğitim süresi ve doğrusal olmayan yapı ihtimali nedeniyle dışlandı.
 - MLP (Yapay Sinir Ağı): Gereksiz karmaşıklık yaratacağı için tercih edilmedi.
 
----
+
 
 ## 💡 Öğrenilenler
 
@@ -64,7 +64,7 @@ Veri seti, yaş (gün cinsinden), boy, kilo, kan basıncı, kolesterol, glikoz, 
 - F1 Score değerlendirmesi, dengesiz sınıflarda en anlamlı metriktir.
 - `class_weight`, `GridSearch`, `RandomizedSearch` gibi tekniklerle model performansı artırılabilir.
 
----
+
 
 ## 📌 Kullanılan Kütüphaneler
 - pandas, numpy
@@ -72,14 +72,14 @@ Veri seti, yaş (gün cinsinden), boy, kilo, kan basıncı, kolesterol, glikoz, 
 - scikit-learn
 - xgboost
 
----
+
 
 ## 📤 Projenin Paylaşımı
 
 - **Kaggle:** 
 - **GitHub:** 
 
----
+
 
 ## 🧠 Geliştirme Önerileri
 
