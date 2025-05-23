@@ -76,10 +76,10 @@ Veri seti, yaş (gün cinsinden), boy, kilo, kan basıncı, kolesterol, glikoz, 
 
 
 
-## Projenin Paylaşımı
+## Projenin Paylaşıldığı Yerler
 
 - **Kaggle:** 
-- **GitHub:** 
+- **GitHub:** https://github.com/whitePhysicS/heart_disease_guesser
 
 
 
